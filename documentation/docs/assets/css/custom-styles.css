@@ -1,0 +1,64 @@
+.top-bar h1#logo a span.light {
+  margin: 0px 10px;
+}
+
+body {
+  background-color: #eee;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #6663;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  border-radius: 20px;
+}
+
+.sidebar {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sidebar > * {
+  width: calc(100% - 30px);
+  border-radius: 5px;
+  border-left: 5px solid #aaa;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin: 0px 10px 10px 10px;
+  background-color: #dfdfdf;
+}
+
+.sidebar > *:hover {
+  background: #ccc;
+  border-color-left: #888;
+}
+
+.sidebar::after {
+  content: "";
+  display: inline-block;
+  height: 35px;
+}
+
+* {
+  transition: 0.5s;
+}
+
+.non-sidebar {
+  margin-left: 260px;
+}
+
+hr {
+  border-color: #0007;
+}
