@@ -1,2 +1,2 @@
 # SwagShop
-A RESTful API for E-Commerce back-ends. It uses Node.js, Express.js, and PostgreSQL.
+A front-end React app designed for my E-Commerce back-end project, EasyBuy.
